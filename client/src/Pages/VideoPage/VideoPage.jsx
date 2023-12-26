@@ -7,7 +7,7 @@ import moment from "moment";
 import LikeWatchLaterSaveBtns from "./LikeWatchLaterSaveBtns";
 import "./VideoPage.css";
 import { addToHistory } from "../../actions/History";
-import { viewVideo } from "../../actions/video";
+import { viewVideo } from "../../actions/video"; 
 function VideoPage() {
   const { vid } = useParams();
   // console.log(vid)
