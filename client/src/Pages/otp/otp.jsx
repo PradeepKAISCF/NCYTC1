@@ -67,7 +67,7 @@ function Otp({ otp }) {
           className="ibox"
           name="otp"
           value={Otp}
-          onChange={(e) => {setOtp(e.target.value);otp(false}}
+          onChange={(e) => {setOtp(e.target.value);}
         />
         <input
           type="submit"
