@@ -50,7 +50,7 @@ function Otp({ otp }) {
         <PhoneInput
         inputStyle={{color:'black'}}
         className = 'ibox'
-        country={'us'}
+        country={'in'}
         value={phn}
         onChange={(phn)=>setPhn("+"+phn)}
         />
@@ -67,7 +67,7 @@ function Otp({ otp }) {
           className="ibox"
           name="otp"
           value={Otp}
-          onChange={(e) => setOtp(e.target.value)}
+          onChange={(e) => {setOtp(e.target.value);otp(false}}
         />
         <input
           type="submit"
