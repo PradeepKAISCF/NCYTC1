@@ -9,7 +9,7 @@ function ShowVideo({vid}) {
      <Link to={`/videopage/${vid?._id}`}>
         <video 
         // src={`http://localhost:5500/${vid.filePath}`}
-        src={`https://null-youtube.onrender.com/${vid.filePath}`}
+        src={`https://ncytc-1.vercel.app/${vid.filePath}`}
         className="video_ShowVideo"
         />
      </Link>
