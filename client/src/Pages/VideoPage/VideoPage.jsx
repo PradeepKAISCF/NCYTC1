@@ -49,7 +49,7 @@ function VideoPage() {
           <div className="video_display_screen_videoPage">
             <video
               // src={`http://localhost:5500/${vv?.filePath}`}
-              src={`https://null-youtube.onrender.com/${vv?.filePath}`}
+              src={`https://ncytc-1.vercel.app/${vv?.filePath}`}
               className={"video_ShowVideo_videoPage"}
               controls
               // autoPlay
